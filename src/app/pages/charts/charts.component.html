@@ -1,1 +1,11 @@
-<p>charts works!</p>
+<div class="row">
+    <div *ngFor="let chart of graficos">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <app-doughnutchart [labels]=chart.labels [data]=chart.data [type]=chart.type [legend]=chart.leyenda></app-doughnutchart>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
