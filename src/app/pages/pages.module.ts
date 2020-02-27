@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts';
 import { DoughnutchartComponent } from '../components/doughnutchart/doughnutchart.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -18,7 +19,8 @@ import { BrowserModule } from '@angular/platform-browser';
         DashboardComponent,
         ChartsComponent,
         IncrementalComponent,
-        DoughnutchartComponent
+        DoughnutchartComponent,
+        AccountSettingsComponent
     ],
     exports: [
         PagesComponent,
